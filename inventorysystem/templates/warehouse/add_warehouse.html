@@ -1,0 +1,32 @@
+{% extends 'base.html' %} 
+{% block content %}
+
+<div class="container mt-4">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="{% url 'warehouse'%}">Warehouse List</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">Add Warehouse</li>
+    </ol>
+  </nav>
+
+  <div class="card">
+    <div class="card-body">
+      <form action="{% url 'add-warehouse' %}" method="post">
+        {% include 'partials/_messages.html'%} 
+        {% csrf_token %}
+        
+        <div class="form-group ">
+          <label for="">Warehouse Name</label>
+          <input type="text" class="form-control form-control-sm" name="name" value="{{entries.name}}" />
+        </div>
+
+        <input type="submit" value="Submit" class="btn btn-primary btn-primary-sm mt-4" />
+        
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %} 

@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-10">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'warehouse' %}">Warehouse List</a></li>
+                <li class="breadcrumb-item active" aria-current="page">My Warehouse List</li>
+                </ol>
+            </nav>
+        </div>
+    
+        <div class="col-md-2">
+            <a href="{% url 'add-warehouse' %}" class = "btn btn-primary">Add Warehouse</a>
+        </div>
+    </div>
+
+    <div class="container">
+        {% include 'partials/_messages.html' %}
+        {% if warehouses.count %}
+
+        <div class="app-table">
+            <table class="table table-stripped table-hover mt-3">
+                <thead>
+                    <tr>
+                        <th>Warehouse</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for warehouse in page_objects %}
+                    <tr>
+                        <td>{{warehouse.name}}</td>
+                        <td><a href = "{% url 'edit-warehouse' warehouse.id %}" class = "btn btn-secondary btn-sm">Edit</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        
+        
+        <div class="pagination-container">
+        <div class = "">
+            Showing Page {{page_objects.number}} of {{page_objects.paginator.num_pages}}
+        </div>
+        <ul class="pagination align-end float-end ms-auto mt-3">
+            {% if page_objects.has_previous %}
+                <li {% if page_objects.number == 1 %} class="page-item active" {% endif %}><a class="page-link" href="?page=1">&laquo; 1</a></li>
+                <li class="page-item"> <a class="page-link" href="?page={{ page_objects.previous_page_number }}">Previous</a></li>
+            {% endif %}      
+            {% if page_objects.has_next %}
+                <li class="page-item"> <a class="page-link" href="?page={{ page_objects.next_page_number }}">Next</a></li>
+                <li class="page-item"> <a class="page-link" href="?page={{ page_objects.paginator.num_pages }}">{{ page_objects.paginator.num_pages}} &raquo;</a></li>
+            {% endif %}            
+        </ul>
+        {% endif %}
+    </div>
+    </div>
+</div>
+
+{% endblock %}

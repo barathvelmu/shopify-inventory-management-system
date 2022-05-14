@@ -1,0 +1,1 @@
+# PLEASE SEE: Using Warehouse database from Inventory App

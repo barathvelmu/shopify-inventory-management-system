@@ -1,0 +1,61 @@
+{% extends 'base.html' %} 
+{% block content %}
+
+<div class="container mt-4">
+<div class="row">
+  <div class="col-md-10">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="{% url 'inventory'%}">Inventory List</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Edit Inventory Item</li>
+      </ol>
+    </nav>
+  </div>
+
+  <div class="col-md-2">
+    <a href = "{% url 'delete-inventory' inventory.id %}" class="btn btn-danger btn-sm">Delete</a>
+  </div>
+</div>
+
+  <div class="card">
+    <div class="card-body">
+      <form action="{% url 'edit-inventory' inventory.id %}" method="post">
+        {% include 'partials/_messages.html'%} 
+        {% csrf_token %}
+        
+        <div class="form-group ">
+          <label for="">Value</label>
+          <input type="text" class="form-control form-control-sm" name="value" value="{{entries.value}}" />
+        </div>
+
+        <div class="form-group mt-3">
+          <label for="">Item</label>
+          <input type="text" class="form-control form-control-sm" name="item" value="{{entries.item}}" />
+        </div>
+
+        <div class="form-group mt-3">
+          <label for="">Warehouse</label>
+          <select class="form-control" name="warehouse">
+            <option selected name = "warehouse" value = "{{entries.warehouse}}">{{entries.warehouse}}</option>
+
+            {% for warehouse in warehouses %}
+              <option name = "warehouse" value = "{{warehouse.name}}">{{warehouse.name}}</option>
+            {% endfor %}
+          </select>
+        </div>
+        
+        <div class="form-group mt-3">
+          <label for="">Date of Entry</label>
+          <input type="date" value = "{{entries.date | date:'Y-m-d'}}" class="form-control form-control-sm" name="date" />
+        </div>
+
+        <input type="submit" value="Save" class="btn btn-primary btn-primary-sm mt-4" />
+        
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'base.html' %} 
+{% block content %}
+
+<div class="container mt-4">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="{% url 'inventory'%}">Inventory List</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">Add Inventory Item</li>
+    </ol>
+  </nav>
+
+  <div class="card">
+    <div class="card-body">
+      <form action="{% url 'add-inventory' %}" method="post">
+        {% include 'partials/_messages.html'%} 
+        {% csrf_token %}
+        
+        <div class="form-group ">
+          <label for="">Value</label>
+          <input type="text" class="form-control form-control-sm" name="value" value="{{entries.value}}" />
+        </div>
+
+        <div class="form-group mt-3">
+          <label for="">Item</label>
+          <input type="text" class="form-control form-control-sm" name="item" value="{{entries.item}}" />
+        </div>
+
+        <div class="form-group mt-3">
+          <label for="">Warehouse</label>
+          <select class="form-control" name="warehouse">
+            {% for warehouse in warehouses %}
+              <option name = "warehouse" value = "{{warehouse.name}}">{{warehouse.name}}</option>
+            {% endfor %}
+          </select>
+        </div>
+        
+        <div class="form-group mt-3">
+          <label for="">Date of Entry</label>
+          <input type="date" class="form-control form-control-sm" name="date" />
+        </div>
+
+        <input type="submit" value="Submit" class="btn btn-primary btn-primary-sm mt-4" />
+        
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %} 
