@@ -30,7 +30,7 @@ Sections will be listed in bullet points for ease of communication.
 Please click this link to view the deployed project. Desktop view is encouraged. 
 
 ```
-https://shopify-inventory-tracking-system--barathvelmu.repl.co
+https://shopify-inventory-tracking-system.barathvelmu.repl.co/
 ```
 ### 2) Project Navigation
 The following steps can be followed for a quick feel of all features in this project.
@@ -63,6 +63,6 @@ Please note that all features listed earlier were seen through these steps.
 ## Project Links (Summary):
 * GitHub Link: https://github.com/barathvelmu/shopify-inventory-tracking-system
 * Replit Project Link: https://replit.com/@BarathVelmu/shopify-inventory-tracking-system?v=1
-* Replit Deployment Link: https://shopify-inventory-tracking-system--barathvelmu.repl.co
+* Replit Deployment Link: https://shopify-inventory-tracking-system.barathvelmu.repl.co/
 
 
