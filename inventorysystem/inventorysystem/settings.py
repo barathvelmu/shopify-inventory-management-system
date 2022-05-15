@@ -76,6 +76,7 @@ WSGI_APPLICATION = 'inventorysystem.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
  
+# Database settings are explicit to showcase backend code, however they must be contained privately in an .env file 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -84,7 +85,7 @@ DATABASES = {
         'PASSWORD': 'pass@word1',
         'HOST':'localhost'
     }
-}
+} 
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
