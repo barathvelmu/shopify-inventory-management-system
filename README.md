@@ -35,9 +35,9 @@ https://shopify-inventory-tracking-system.barathvelmu.repl.co/
 ### 2) Project Navigation
 The following steps can be followed for a quick feel of all features in this project.
 
-VIDEO VERSION: https://youtu.be/pZPW_EL-ELk
+Video Version (3 Minutes): https://youtu.be/pZPW_EL-ELk
 
-TEXT VERSION:
+Text Version:
 1. Click the link from earlier section (project opens)
 2. Click on "Warehouse List" in the sidebar located on the left
 3. Now, click the "Add Warehouse" blue button found on the top right
