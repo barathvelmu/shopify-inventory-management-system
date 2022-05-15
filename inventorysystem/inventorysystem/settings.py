@@ -131,3 +131,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
+# Replit Configuration
+X_FRAME_OPTIONS = '*'
