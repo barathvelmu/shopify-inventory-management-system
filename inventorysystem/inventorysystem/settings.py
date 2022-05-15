@@ -26,7 +26,9 @@ SECRET_KEY = '@*gqnazrz8y^0s!xyc8qa+ijhzqvx6tcny8=j(9z%ifj+9%3zn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ee80a464-a81c-47e9-b827-8b7d4d011d24.id.repl.co']
+ALLOWED_HOSTS = ['0033e619-43f3-40c0-a7cd-d2599d733ff4.id.repl.co',
+                'shopify-inventory-tracking-system.barathvelmu.repl.co']
+CSRF_TRUSTED_ORIGINS = ['https://0033e619-43f3-40c0-a7cd-d2599d733ff4.id.repl.co', 'https://shopify-inventory-tracking-system.barathvelmu.repl.co']
 
 
 # Application definition
