@@ -21,7 +21,7 @@ Sections will be listed in bullet points for ease of communication.
 IMPORTANT: This project has already been deployed (see Project Usage). However,
 
 * Guide to Re-Deploy Through Replit: updating...
-* Guide for Local Machine Setup: updating... 
+* Guide for Local Machine Setup: [Here](https://docs.google.com/document/d/1TgaB8yYwJWu8kvAv5v4_B0Wx26iBK6tuM1QKyZsYf38/edit?usp=sharing) 
 
 
 ## Project Usage
