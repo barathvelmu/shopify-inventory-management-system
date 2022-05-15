@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .models import Warehouse, Inventory
 from django.contrib import messages
 from django.core.paginator import Paginator
+import numbers
 
 # Inventory List Page (added Pagination: 10 objects per page)
 def index(request):

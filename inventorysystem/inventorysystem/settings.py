@@ -76,14 +76,11 @@ WSGI_APPLICATION = 'inventorysystem.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
  
-# Database settings are explicit to showcase backend code, however they must be contained privately in an .env file 
+# Please note: Database settings must normally be contained privately in an .env file 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'inventorysystemdb',
-        'USER': 'postgres',
-        'PASSWORD': 'pass@word1',
-        'HOST':'localhost'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 } 
 
