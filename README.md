@@ -2,9 +2,10 @@
 ## Introduction
 Hello! This project was specifically built for Shopify's "Fall 2022 - Shopify Developer Intern Challenge".
 
-Sections will be listed in bullet points for ease of communication.
+Sections will be listed in bullet points for ease of communication. 
 
 *Project was built using Django, Python, HTML, and CSS.*
+
 
 ## Project Features 
 * Ability to create, read, update, and delete inventory items
@@ -15,14 +16,52 @@ Sections will be listed in bullet points for ease of communication.
 * Ability to view a dynamic list of warehouses
 * Pagination for both Inventory Item List and Warehouse Item List (10 entries per page)
 
+
+## Project Setup (section is optional)
+IMPORTANT: This project has already been deployed (see Project Usage). However,
+
+Guide to Re-Deploy Through Replit: updating...
+Guide for Local Machine Setup: updating... 
+
+
 ## Project Usage
-### 1) Install dependencies
+### 1) Access Deployment Link
+
+Please click this link to view the deployed project. Desktop view is encouraged. 
 
 ```
-EDIT ME
+https://shopify-inventory-tracking-system.barathvelmu.repl.co/
 ```
 
-SOMETHING.
+### 2) Project Navigation
+The following steps can be followed for a quick feel of all features in this project.
 
-## Project Link: 
-Please visit: 
+VIDEO VERSION: updating...
+
+TEXT VERSION:
+1. Click the link from earlier section (project opens)
+2. Click on "Warehouse List" in the sidebar located on the left
+3. Now, click the "Add Warehouse" blue button found on the top right
+4. Specify a Warehouse Name and click the "Submit" blue button (note it's created!)
+5. Click the "Edit" button on any Warehouse to change its name. Then "Save".
+6. Now, click on "Inventory List" in the sidebar located on the left
+7. Click the "Add Inventory" blue button found on the top right
+8. Specify the Value, Item Name, Warehouse Assignment, Date of Entry and "Submit"
+    1. Adding a date later than May 15, 2022 is best as the added record will be the first on the Inventory List (chronological order in database). Easy to locate.
+    2. Assigning the inventory item to the created Warehouse helps show relationship
+9. Click the "Edit" button on any inventory item to change its information. Then "Save"
+    2. Best to edit the inventory item created 
+11. To delete an inventory item, click on "Edit" button again. Now, click on "Delete" red button found towards the top right (note it's deleted!)
+12. Return to "Warehouse List" through the left sidebar
+13. Delete the Warehouse that was created earlier (Step 4)
+14. Woohoo! We are done :)
+
+Please note that all features listed earlier were seen through these steps.
+
+
+## Project Links: 
+Replit Project Link: updating...
+GitHub Link: https://github.com/barathvelmu/shopify-inventory-tracking-system
+Replit Deployment Link: https://shopify-inventory-tracking-system.barathvelmu.repl.co/
+
+
