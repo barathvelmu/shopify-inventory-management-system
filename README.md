@@ -20,8 +20,8 @@ Sections will be listed in bullet points for ease of communication.
 ## Project Setup (section is optional)
 IMPORTANT: This project has already been deployed (see Project Usage). However,
 
-Guide to Re-Deploy Through Replit: updating...
-Guide for Local Machine Setup: updating... 
+* Guide to Re-Deploy Through Replit: updating...
+* Guide for Local Machine Setup: updating... 
 
 
 ## Project Usage
@@ -32,11 +32,10 @@ Please click this link to view the deployed project. Desktop view is encouraged.
 ```
 https://shopify-inventory-tracking-system.barathvelmu.repl.co/
 ```
-
 ### 2) Project Navigation
 The following steps can be followed for a quick feel of all features in this project.
 
-VIDEO VERSION: updating...
+VIDEO VERSION: https://youtu.be/pZPW_EL-ELk
 
 TEXT VERSION:
 1. Click the link from earlier section (project opens)
@@ -60,8 +59,8 @@ Please note that all features listed earlier were seen through these steps.
 
 
 ## Project Links: 
-Replit Project Link: updating...
-GitHub Link: https://github.com/barathvelmu/shopify-inventory-tracking-system
-Replit Deployment Link: https://shopify-inventory-tracking-system.barathvelmu.repl.co/
+* Replit Project Link: updating...
+* GitHub Link: https://github.com/barathvelmu/shopify-inventory-tracking-system
+* Replit Deployment Link: https://shopify-inventory-tracking-system.barathvelmu.repl.co/
 
 
