@@ -26,12 +26,12 @@
         {% csrf_token %}
         
         <div class="form-group ">
-          <label for="">Value (Please input a number)</label>
+          <label for="">Value (Please only input a number. Don't add $.)</label>
           <input type="text" class="form-control form-control-sm" name="value" value="{{entries.value}}" />
         </div>
 
         <div class="form-group mt-3">
-          <label for="">Item (Please type a name)</label>
+          <label for="">Item (Please type the inventory name.)</label>
           <input type="text" class="form-control form-control-sm" name="item" value="{{entries.item}}" />
         </div>
 
