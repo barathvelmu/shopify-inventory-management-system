@@ -17,11 +17,11 @@ Sections will be listed in bullet points for ease of communication.
 * Pagination for both Inventory Item List and Warehouse Item List (10 entries per page)
 
 
-## Project Setup (section is optional)
-IMPORTANT: This project has already been deployed (see Project Usage). However,
+## Project Setup
 
-* Guide to Re-Deploy Through Replit: updating...
-* Guide for Local Machine Setup: [Here](https://docs.google.com/document/d/1TgaB8yYwJWu8kvAv5v4_B0Wx26iBK6tuM1QKyZsYf38/edit?usp=sharing) 
+* Guide to Setup Application Through Replit: [Here](https://youtu.be/3SfJ8H5aVyI)
+    * Link to Replit Project Link: [Click_Me](https://replit.com/@BarathVelmu/shopify-inventory-tracking-system?v=1)
+* Guide to Setup Application on Local Machine : [Here](https://docs.google.com/document/d/1TgaB8yYwJWu8kvAv5v4_B0Wx26iBK6tuM1QKyZsYf38/edit?usp=sharing) 
 
 
 ## Project Usage
@@ -30,12 +30,12 @@ IMPORTANT: This project has already been deployed (see Project Usage). However,
 Please click this link to view the deployed project. Desktop view is encouraged. 
 
 ```
-https://shopify-inventory-tracking-system.barathvelmu.repl.co/
+https://shopify-inventory-tracking-system--barathvelmu.repl.co
 ```
 ### 2) Project Navigation
 The following steps can be followed for a quick feel of all features in this project.
 
-Video Version (3 Minutes): https://youtu.be/pZPW_EL-ELk
+Video Version (3 Minutes): [Here](https://youtu.be/pZPW_EL-ELk)
 
 Text Version:
 1. Click the link from earlier section (project opens)
@@ -58,9 +58,9 @@ Text Version:
 Please note that all features listed earlier were seen through these steps.
 
 
-## Project Links: 
-* Replit Project Link: updating...
+## Project Links (Summary):
 * GitHub Link: https://github.com/barathvelmu/shopify-inventory-tracking-system
-* Replit Deployment Link: https://shopify-inventory-tracking-system.barathvelmu.repl.co/
+* Replit Project Link: https://replit.com/@BarathVelmu/shopify-inventory-tracking-system?v=1
+* Replit Deployment Link: https://shopify-inventory-tracking-system--barathvelmu.repl.co
 
 
