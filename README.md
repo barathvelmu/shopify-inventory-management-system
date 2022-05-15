@@ -20,7 +20,7 @@ Sections will be listed in bullet points for ease of communication.
 ## Project Setup
 
 * Guide to Setup Application Through Replit (2 Minutes): [Video](https://youtu.be/3SfJ8H5aVyI)
-    * Link to Replit Project Link: [Click_Me](https://replit.com/@BarathVelmu/shopify-inventory-tracking-system?v=1)
+    * Replit Project Link: [Replit](https://replit.com/@BarathVelmu/shopify-inventory-tracking-system?v=1)
 * Guide to Setup Application on Local Machine : [GoogleDocs](https://docs.google.com/document/d/1TgaB8yYwJWu8kvAv5v4_B0Wx26iBK6tuM1QKyZsYf38/edit?usp=sharing) 
 
 
