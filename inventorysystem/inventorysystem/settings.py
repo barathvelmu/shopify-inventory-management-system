@@ -26,8 +26,8 @@ SECRET_KEY = '@*gqnazrz8y^0s!xyc8qa+ijhzqvx6tcny8=j(9z%ifj+9%3zn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '0033e619-43f3-40c0-a7cd-d2599d733ff4.id.repl.co',
-                'shopify-inventory-tracking-system.barathvelmu.repl.co', 'shopify-inventory-tracking-system--barathvelmu.repl.co']
+# Allowing any host for replit connectivity. Must be avoided for production apps.
+ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1', 'https://0033e619-43f3-40c0-a7cd-d2599d733ff4.id.repl.co', 'https://shopify-inventory-tracking-system.barathvelmu.repl.co', 'https://shopify-inventory-tracking-system--barathvelmu.repl.co']
 
 

@@ -1,2 +1,2 @@
 language = "bash"
-run = ""
+run = "pip install django\ncd inventorysystem\npython manage.py runserver 0.0.0.0:3000"
